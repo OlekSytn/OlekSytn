@@ -151,6 +151,62 @@
     <div class="font60 font-dark-blue f-al">Disclaimer</div>
     <div class="font18 fontline30 font-dark-blue f-al mt40">The HUMAN Protocol Foundation makes no representation, warranty, or undertaking, express or implied, as to the accuracy, reliability, completeness, or reasonableness of the Information. Any assumptions, opinions, and estimates expressed in the information on this page constitutes the HUMAN Protocol Foundation’s judgment as of 18/11/21 and are subject to change without notice. The HUMAN Protocol Foundation does not accept any liability for any direct, consequential or other loss arising from reliance on the contents of the information in this graphic.</div>
   </div>
+  <div class="layout8-container f-col f-center">
+    <div class="w100" style="padding:0px 225px">
+        <div class="font60 font-dark-blue d-in-l fontbold">Recent Entries</div>
+        <button class="go-blog-btn font16 font-dark-blue d-in-r">Go Blog</button>
+    </div>
+    <div class="layout8-content mt40">
+       <div class="layout8-view-content ">
+            <div class="layout8-view f-row">
+                <div class="card-list-item" style="margin-left: 225px;">
+                    <img src="../img/Screen1.png" style="z-index: 5;position:relative"/>
+                    <div class="selected-area"></div>
+                    <div class="f-col card-list-detail" style="z-index: 5;">
+                        <div class="f-row f-ccenter mt20">
+                            <div class="font18 font-dark-blue">Mar 31  2022</div>
+                            <button class="guest-post-btn ml40">Guest Post</button>
+                        </div>
+                        <div class="font32 font-dark-blue fontbold mt20">
+                            Interview with Andreas Schemm, Head of Ecosystem Development & Operations at HUMAN Protocol
+                        </div> 
+                        <button class="community-btn mt40 font16 font-dark-blue">Community</button>
+                    </div>
+                </div>
+                <div class="card-list-item f-col ml40">
+                    <img src="../img/Screen2.png"/>
+                    <div class="f-col card-list-detail">
+                        <div class="f-row f-ccenter mt20">
+                            <div class="font18 font-dark-blue">Mar 31  2022</div>
+                            <button class="guest-post-btn ml40">Guest Post</button>
+                        </div>
+                        <div class="font32 font-dark-blue fontbold mt20">
+                            Interview with Andreas Schemm, Head of Ecosystem Development & Operations at HUMAN Protocol
+                        </div> 
+                        <button class="community-btn mt40 font16 font-dark-blue">Community</button>
+                    </div>
+                </div>
+                <div class="card-list-item f-col ml40">
+                    <img src="../img/Screen3.png"/>
+                    <div class="f-col card-list-detail">
+                        <div class="f-row f-ccenter mt20">
+                            <div class="font18 font-dark-blue">Mar 31  2022</div>
+                            <button class="guest-post-btn ml40">Guest Post</button>
+                        </div>
+                        <div class="font32 font-dark-blue fontbold mt20">
+                            Interview with Andreas Schemm, Head of Ecosystem Development & Operations at HUMAN Protocol
+                        </div> 
+                        <button class="community-btn mt40 font16 font-dark-blue">Community</button>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="arrow-container">
+        <button class="arrow-btn font18 f-ac d-in-r ml40 mr10 font-dark-blue">{{ ">" }}</button>
+        <button class="arrow-btn font18 f-ac d-in-r ml40 font-dark-blue">{{ "<" }}<ArrowBackIcon/></button>
+    </div>
+  </div>
   <div class="last-container f-row">
     <div class="last-content ma">
       <div class="font32 fontbold font-dark-blue mt20">Get HUMAN news and updates</div>
@@ -216,12 +272,113 @@
   </div>
   <div class="contact-container f-col ma">
     <div class="f-al font18 font-dark-blue fontbold">Third-party communities</div>
+    <div class="f-row contact-content">
+      <div class="send-box f-row mra w60 mt40">
+        <img src="../img/Tele.png">
+        <div class="f-al font18 font-dark-blue fontbold ml30">Telegram</div>
+      </div>
+      <div class="send-box f-row mla w30 mt40">
+        <img src="../img/Mixin.png">
+        <div class="f-al font18 font-dark-blue fontbold ml30">Mixin</div>
+      </div>
+    </div>
   </div>
 </template> 
 
 <style scoped>
+
+.layout8-container{
+        padding: 0px 0px 100px 0px;
+    }
+    .layout8-content{
+        overflow:hidden;
+        width:100vw;
+        height:780px;
+    }
+    .arrow-container{
+        width:100%;
+        padding:40px 227px 0px 0px;
+    }
+    .arrow-btn{
+        width:80px;
+        height:80px;
+        background: linear-gradient(145.2deg, #F0F2FC -4.32%, #FFFFFF 61.97%);
+        box-shadow: 0px 12px 16px rgba(12, 32, 213, 0.07);
+        backdrop-filter: blur(4.07742px);
+        border:solid 5px white;
+        border-radius: 50%;
+    }
+    .layout8-view-content{
+        overflow-y: hidden;
+        overflow-x: auto;
+        height:820px;
+    }
+    .layout8-view{
+        width:2500px;
+    }
+    .card-list-item
+    {
+        position:relative;
+        width:712px;
+        height:758px;
+        z-index: 5;
+    }
+    .selected-area
+    {
+        z-index: 1;
+        position:absolute;
+        width:760px;
+        height:720px;
+        left:-24px;
+        top:0px;
+        background: #FFFFFF;
+        border-radius: 40px;
+        box-shadow: 4px 4px 10px #F2F2FA;
+    }
+    .card-list-item>img{
+        z-index: 5;
+        padding:50px;
+        width:100%;
+        height:50%;
+    }
+    .go-blog-btn{
+        border: 2px solid #320A8D;
+        border-radius: 10px;
+        width:184px;
+        height:56px;
+    }
+    .guest-post-btn{
+        width:133px;
+        height:32px;
+        background: #FFFFFF;
+        /* Blue/400 */
+        border: 1px solid #320A8D;
+        border-radius: 10px;
+    }
+    .community-btn{
+        width:133px;
+        height:40px;
+        border: none;
+        background: #F2F2FA;
+        border-radius: 20px;
+    }
+    .card-list-detail{
+        position: relative;
+        width:100%;
+        height:50%;
+        padding:0px 76px 0px 76px;
+    }
+.send-box{
+  width:auto;
+  padding:30px 0px 30px 0px;
+  border-bottom:1px solid #320A8D;
+}
+.contact-content{
+  display: flex;
+  flex: 60% 30%;
+}
 .contact-container{
-  background: #E2E2EA;
+  background: #E9EBFA;
   padding:150px 5% 150px 5%;
 }
 .footer{
@@ -448,6 +605,12 @@ background: #F2F2FA;
 }
 .mpa{
     margin-left:auto;
+    margin-right: auto;
+}
+.mla{
+    margin-left:auto;
+}
+.mra{
     margin-right: auto;
 }
 
