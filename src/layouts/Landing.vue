@@ -1,5 +1,6 @@
 <script setup>
     import MyButton from "../components/Button.vue";
+    import chart from "../components/chart.js";
 </script>
 
 <template>
