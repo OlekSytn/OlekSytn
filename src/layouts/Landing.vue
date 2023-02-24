@@ -1,5 +1,5 @@
 <script setup>
-    import MyButton from "../components/Button.vue"
+    import MyButton from "../components/Button.vue";
 </script>
 
 <template>
@@ -108,7 +108,7 @@
   <div class="normal-container f-col mt40 f-center">
     <img src="../img/Group 1298.png">
   </div>
-  <div class="layout2-container f-col mt40 f-center">
+  <div class="layout2-container f-col mt40 w75 f-center">
     <div class="font60 font-dark-blue fontbold">How do I get HMT?</div>
     <div class="f-row ml20 mr20 mt40 f-center w75">
       <div class="picture-box1 ma f-show f-center">
@@ -128,30 +128,112 @@
       </div>
     </div>
   </div>
-  <div class="layout3-container f-col mt40 f-center">
-    <div class="font60 font-dark-blue fontbold">Utility of the HUMAN Token</div>
-    <div class="f-row ml20 mr20 mt40 f-center w75">
-      <div class="picture-box1 ma f-show f-center">
-        <img src="../img/Group 1309.png">
+  <div class="human-container f-row f-center">
+    <div class="human-content">
+        <div class="font60 font-dark-blue w100 f-ac fontbold" style="padding:101px 143px 0px 143px">Utility of the HUMAN Token</div>
+        <div class="human-list   f-center">
+            <div class="picture-box2 f-col f-center">
+                <img src="../img/Group 439.png" style="width:auto"/>
+                <div class="font18 font-dark-blue fontbold mt40">Complete Jobs</div>
+            </div>
+            <div class="picture-box2 f-col f-center">
+                <img src="../img/Group 1320.png" style="width:auto"/>
+                <div class="font18 font-dark-blue fontbold mt40">Grants Program</div>
+            </div>
+            <div class="picture-box2 f-col f-center">
+                <img src="../img/Group 610.png" style="width:auto"/>
+                <div class="font18 font-dark-blue fontbold mt40">Ambassador Program</div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="disclaim-container f-col f-al ma">
+    <div class="font60 font-dark-blue f-al">Disclaimer</div>
+    <div class="font18 fontline30 font-dark-blue f-al mt40">The HUMAN Protocol Foundation makes no representation, warranty, or undertaking, express or implied, as to the accuracy, reliability, completeness, or reasonableness of the Information. Any assumptions, opinions, and estimates expressed in the information on this page constitutes the HUMAN Protocol Foundation’s judgment as of 18/11/21 and are subject to change without notice. The HUMAN Protocol Foundation does not accept any liability for any direct, consequential or other loss arising from reliance on the contents of the information in this graphic.</div>
+  </div>
+  <div class="last-container f-row">
+    <div class="last-content ma">
+      <div class="font32 fontbold font-dark-blue mt20">Get HUMAN news and updates</div>
+      <div class="f-row mt20 f-left">
+        <div class="input-email font18 font-dark-blue w60 f-al">your@email.com</div>
+        <div class="submit-email font18 font-white ma w30 f-ac">Subscribe</div>
       </div>
-      <div class="picture-box1 ma f-show f-center">
-        <img src="../img/Group 1310.png">
-      </div>
-      <div class="picture-box1 ma f-show f-center">
-        <img src="../img/Group 1311.png">
-      </div>
-      <div class="picture-box1 ma f-show f-center">
-        <img src="../img/Group 1312.png">
-      </div>
-      <div class="picture-box1 ma f-show f-center">
-        <img src="../img/Group 1313.png">
-      </div>
+      <div class="font18 font-dark-blue mt20">Get HUMAN news and updates</div>
+    </div>
+    <div class="last-content ma w20 f-row">
+      <div class="font32 font-dark-blue ma"><img src="../img/icon1.png"></div>
+      <div class="font32 font-dark-blue ma"><img src="../img/icon2.png"></div>
+      <div class="font32 font-dark-blue ma"><img src="../img/icon3.png"></div>
+      <div class="font32 font-dark-blue ma"><img src="../img/icon4.png"></div>
+      <div class="font32 font-dark-blue ma"><img src="../img/icon5.png"></div>
     </div>
   </div>
 </template> 
 
 <style scoped>
+.submit-email{
+  padding-top:10px;
+  padding-bottom: 10px;
+  background:#320A8D;
+  border-radius: 10px;
+}
+.input-email{
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 4%;
+  background:#FFFFFF;
+  border-radius: 10px;
+  border:2px solid #320A8D;
+}
+.last-container{
+  background: #F2F2FA;
+}
+.last-content{
+  padding:150px 0px 150px 0px;
+}
 
+.entry-content{
+  padding-left: 20%;
+  width:auto;
+}
+
+.entry-container{
+}
+.fontline30{
+  line-height: 30px;
+}
+.disclaim-container{
+    padding: 200px 0px 200px 0px;
+    width: 60%; 
+}
+.human-container{
+    padding: 200px 0px 200px 0px;
+    width: 100%;
+}
+.human-content{
+    width:1472px;
+    height:454px;
+    background: #F2F2FA;
+    border-radius: 40px;
+}
+.human-list {
+    margin-top:120px;
+    padding:0px 100px 100px 100px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.picture-box2{
+    margin:0px 50px;
+    width:300px;
+    height:300px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #F0F2FC;
+}
+.picture-box2>img{
+    width:50%;
+    height:20%;
+}
 .picture-box1{
   background:#FFFFFF;
   border-radius: 20px;
@@ -191,6 +273,9 @@ background: #F2F2FA;
 .f-ccenter{
   align-items: center;
 }
+.f-left{
+  align-items: start;
+}
 /*Font*/
 
 .font80{
@@ -217,6 +302,10 @@ background: #F2F2FA;
 }
 .font-light-blue{
   color:#6309FF;;
+}
+
+.font-white{
+  color:#FFFFFF;;
 }
 
 .fontbold{
@@ -288,6 +377,9 @@ background: #F2F2FA;
 .mb40{
   margin-bottom: 40px;
 }
+.mb100{
+  margin-bottom: 100px;
+}
 
 .ma{
   margin:auto;
@@ -314,8 +406,17 @@ background: #F2F2FA;
 .w75{
   width:75%;
 }
+.w60{
+  width:60%;
+}
 .w50{
   width:50%;
+}
+.w30{
+  width:30%;
+}
+.w20{
+  width:20%;
 }
 .w25{
   width:176px;
