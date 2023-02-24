@@ -168,9 +168,66 @@
       <div class="font32 font-dark-blue ma"><img src="../img/icon5.png"></div>
     </div>
   </div>
+  <div class="footer f-row ma">
+    <div class="f-col mpa  f-al">
+      <div class="font18 font-dark-blue fontbold">Products</div>
+      <div class="font18 font-dark-blue mt30">HUMAN App</div>
+      <div class="font18 font-dark-blue mt30">Proof of HUMANity</div>
+      <div class="font18 font-dark-blue mt30">IMOO</div>
+    </div>
+    <div class="f-col mpa f-al">
+      <div class="font18 font-dark-blue fontbold">Discover</div>
+      <div class="font18 font-dark-blue mt30">Token</div>
+      <div class="font18 font-dark-blue mt30">Routing Layer</div>
+      <div class="font18 font-dark-blue mt30">Team</div>
+      <div class="font18 font-dark-blue mt30">Careers</div>
+    </div>
+    <div class="f-col mpa  f-al">
+      <div class="font18 font-dark-blue fontbold">Build</div>
+      <div class="font18 font-dark-blue mt30">Developers</div>
+      <div class="font18 font-dark-blue mt30">Technology</div>
+      <div class="font18 font-dark-blue mt30">DevBounty Program</div>
+      <div class="font18 font-dark-blue mt30">BugBounty Program</div>
+      <div class="font18 font-dark-blue mt30">Github</div>
+      <div class="font18 font-dark-blue mt30">Grants Program</div>
+    </div>
+    <div class="f-col mpa  f-al">
+      <div class="font18 font-dark-blue fontbold">Community</div>
+      <div class="font18 font-dark-blue mt30">Grants Program</div>
+      <div class="font18 font-dark-blue mt30">Elite Ops Program</div>
+      <div class="font18 font-dark-blue mt30">Events</div>
+    </div>
+    <div class="f-col mpa f-al">
+      <div class="font18 font-dark-blue fontbold">Resources</div>
+      <div class="font18 font-dark-blue mt30">Documents Hub</div>
+      <div class="font18 font-dark-blue mt30">Lifepaper</div>
+      <div class="font18 font-dark-blue mt30">Technical Whitepaper</div>
+      <div class="font18 font-dark-blue mt30">AI Whitepaper</div>
+      <div class="font18 font-dark-blue mt30">System Status</div>
+      <div class="font18 font-dark-blue mt30">In The News</div>
+      <div class="font18 font-dark-blue mt30">One Pagers Archive</div>
+      <div class="font18 font-dark-blue mt30">Brand Assets</div>
+    </div>
+    <div class="f-col mpa  f-al">
+      <div class="font18 font-dark-blue fontbold">Impact Projects</div>
+      <div class="font18 font-dark-blue fontbold mt30">Blog</div>
+      <div class="font18 font-dark-blue fontbold mt30">Explorer</div>
+    </div>
+  </div>
+  <div class="contact-container f-col ma">
+    <div class="f-al font18 font-dark-blue fontbold">Third-party communities</div>
+  </div>
 </template> 
 
 <style scoped>
+.contact-container{
+  background: #E2E2EA;
+  padding:150px 5% 150px 5%;
+}
+.footer{
+  background: #F2F2FA;
+  padding:150px 5% 150px 5%;
+}
 .submit-email{
   padding-top:10px;
   padding-bottom: 10px;
@@ -186,7 +243,7 @@
   border:2px solid #320A8D;
 }
 .last-container{
-  background: #F2F2FA;
+  background: #FBFBFD;
 }
 .last-content{
   padding:150px 0px 150px 0px;
@@ -388,6 +445,10 @@ background: #F2F2FA;
 .mta{
     margin-top:auto;
     margin-bottom: auto;
+}
+.mpa{
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .pdr10{
