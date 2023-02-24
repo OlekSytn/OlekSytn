@@ -93,13 +93,83 @@
                     </div>
                 </div>
             </div>
+            <div class="mt40">
+              <img src="../img/Group 1284.png">
+            </div>
         </div>
   </div>
-</template>
+  <div class="layout3-container f-col mt40 f-center">
+    <div class="font60 font-dark-blue fontbold">HUMAN in the media</div>
+    <img src="../img/Group 1294.png">
+  </div>
+  <div class="normal-container f-col mt40 f-center">
+    <img src="../img/Group 1300.png">
+  </div>
+  <div class="normal-container f-col mt40 f-center">
+    <img src="../img/Group 1298.png">
+  </div>
+  <div class="layout2-container f-col mt40 f-center">
+    <div class="font60 font-dark-blue fontbold">How do I get HMT?</div>
+    <div class="f-row ml20 mr20 mt40 f-center w75">
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1309.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1310.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1311.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1312.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1313.png">
+      </div>
+    </div>
+  </div>
+  <div class="layout3-container f-col mt40 f-center">
+    <div class="font60 font-dark-blue fontbold">Utility of the HUMAN Token</div>
+    <div class="f-row ml20 mr20 mt40 f-center w75">
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1309.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1310.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1311.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1312.png">
+      </div>
+      <div class="picture-box1 ma f-show f-center">
+        <img src="../img/Group 1313.png">
+      </div>
+    </div>
+  </div>
+</template> 
 
 <style scoped>
 
+.picture-box1{
+  background:#FFFFFF;
+  border-radius: 20px;
+  width:200px;
+  height:200px;
+  box-shadow:0px 5px 5px #F2F2FA
+}
+  .layout3-container{
+    padding-top:143px;
+    width: 100%;
+    border-radius: 30px;
+background: #F2F2FA;
+  }
 /*Flex*/
+
+.f-show{
+  display: flex;
+}
 .f-row{
   display: flex;
   flex-direction: row;
@@ -211,6 +281,12 @@
 }
 .mr40{
   margin-right: 40px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.mb40{
+  margin-bottom: 40px;
 }
 
 .ma{
