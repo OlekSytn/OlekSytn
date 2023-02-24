@@ -1,6 +1,21 @@
-<script setup>
+<script>
     import MyButton from "../components/Button.vue";
-    import chart from "../components/chart.js";
+    import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+    import { Doughnut } from 'vue-chartjs'
+    import * as chartConfig from './chartConfig.js'
+
+    ChartJS.register(ArcElement, Tooltip, Legend)
+
+    export default {
+      name: 'App',
+      components: {
+        Doughnut
+      },
+      data() {
+        return chartConfig
+      }
+    }
+
 </script>
 
 <template>
@@ -109,6 +124,7 @@
   <div class="normal-container f-col mt40 f-center">
     <img src="../img/Group 1298.png">
   </div>
+  <Doughnut class="chart mt40" :data="data" :options="options" />
   <div class="layout2-container f-col mt40 w75 f-center">
     <div class="font60 font-dark-blue fontbold">How do I get HMT?</div>
     <div class="f-row ml20 mr20 mt40 f-center w75">
@@ -288,6 +304,9 @@
 
 <style scoped>
 
+.chart{
+  height: 1000px !important;;
+}
 .layout8-container{
         padding: 0px 0px 100px 0px;
     }
