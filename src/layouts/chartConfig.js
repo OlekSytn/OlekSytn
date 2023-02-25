@@ -9,8 +9,8 @@ export const data = {
   }
   
   export const options = {
-    responsive: false,
-    maintainAspectRatio: true
+    responsive: true,
+    maintainAspectRatio: false
   }
   export const data1 = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -25,7 +25,7 @@ export const data = {
   }
   
   export const options1 = {
-    responsive: false,
-    maintainAspectRatio: true
+    responsive: true,
+    maintainAspectRatio: false
   }
   

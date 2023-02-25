@@ -308,8 +308,7 @@
         box-shadow: 4px 4px 10px #F0F2FC;
     }
     .chart{
-      width: 50% !important;
-      height:50% !important;
+      height: 1000px!important;;
     }
     .layout8-container{
         padding: 0px 0px 100px 0px;
@@ -812,12 +811,18 @@
     }
 
 
-@media (max-width:800px   ){
+@media (max-width:1200px   ){
+  .footer{
+    display: none!important;
+  }
   .big-logo{
     width:70% !important;
     height:auto;
     margin-left: auto !important;
     margin-right:auto !important;
+  }
+  .layout1-container{
+    flex-direction: column!important;;
   }
 
   .show-background{
