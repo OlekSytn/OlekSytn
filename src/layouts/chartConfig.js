@@ -9,7 +9,23 @@ export const data = {
   }
   
   export const options = {
-    responsive: true,
-    maintainAspectRatio: false
+    responsive: false,
+    maintainAspectRatio: true
+  }
+  export const data1 = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    datasets: [
+      {
+        label: 'Data One',
+        backgroundColor: '#f87979',
+        data: [40, 39, 10, 40, 39, 80, 40],
+        fill:true,
+      }
+    ]
+  }
+  
+  export const options1 = {
+    responsive: false,
+    maintainAspectRatio: true
   }
   
