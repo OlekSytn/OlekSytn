@@ -7,7 +7,7 @@
 
 <img align="right" width="400" src="https://camo.githubusercontent.com/fa73289736064aba480d0708da37d7aa183a8c3e2bcc2f58c54285a3bbbeecc1/68747470733a2f2f7777772e61616c7068612e6e65742f77702d636f6e74656e742f75706c6f6164732f323032302f31322f66756c6c2d737461636b2d646576656c6f706d656e742e676966" />
   <p>
-  Experienced Web Developer adept in all stages of advanced web development with 7+ years experience building smart websites and 2+ years working with Blockchain 
+  Experienced Web Developer adept in all stages of advanced web development with 8+ years experience building smart websites and 5+ years working with Blockchain 
   technologies. Quickly learn and master new technologies and working in both team and self-directed settings. Adept at contributing to a highly collaborative work 
   environment, finding solutions, and determining customer satisfaction. As a problem solver, I always strive to deliver good value to clients and works very well with 
   team members.
@@ -31,6 +31,7 @@
 
 <table>
   <tr>
+    <td><img src="https://cdn.iconscout.com/icon/free/png-128/rust-3521686-2945130.png" width="100"></td>
     <td><img src="https://cdn.iconscout.com/icon/free/png-128/go-77-1175166.png" width="100"></td>
     <td><img src="https://cdn.iconscout.com/icon/free/png-64/python-2-226051.png" width="100"></td>
     <td><img src="https://cdn.iconscout.com/icon/free/png-64/node-js-1174925.png" width="100"></td>
@@ -43,7 +44,6 @@
     <td><img src="https://cdn.iconscout.com/icon/free/png-64/javascript-24-1174950.png" width="100"></td>
     <td><img src="https://cdn.iconscout.com/icon/free/png-64/typescript-1174965.png" width="100"></td>
     <td><img src="https://cdn.iconscout.com/icon/free/png-64/visualstudio-1-1174964.png" width="100"></td>
-    <td><img src="https://cdn.iconscout.com/icon/free/png-128/rust-3521686-2945130.png" width="100"></td>
   </tr>
   <tr>
     <td><img src="https://cdn.iconscout.com/icon/free/png-128/aws-1869025-1583149.png" width="100"></td>
@@ -58,3 +58,19 @@
    </tr>
   </table>
 <br />
+## 💻 GitHub Stats
+
+<table width="100%">
+    <tr>
+        <td>
+        <img height="200em" src="https://github-readme-stats.vercel.app/api?username=mooney0129&show_icons=true&hide_border=true" /> 
+        </td>
+        <td> 
+        <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mooney0129&show_icons=true&hide_border=true&layout=compact&langs_count=8"/> 
+        </td>
+    </tr>
+    <table>
+    <div align="center"  width="100%">
+        <img src="https://github-profile-trophy.vercel.app/?username=mooney0129&theme=onedark&rank=SECRET,SSS,SS,S,AAA,AA,A,B&margin-w=10&margin-h=10">
+    </div>
+    <img align='center'  height="70" alt="Thanks" width="100%" src="https://github.com/Kushal997-das/Kushal997-das/blob/master/Profile%20generator/marquee.svg"/>
