@@ -20,11 +20,7 @@
 
 - **Smart Contract & Crypto**
 
-- **Crypto Trading Platforms & Bots**
-
-- **AR & VR Web and Mobile application**
-
-- Video Conference Web & Mobile application
+- **Full Stack web pages like eCommerce**
 ##
 
 **Languages and Tools :**  
